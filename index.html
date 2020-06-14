@@ -6,27 +6,62 @@
 		<style >
 			
             *{
-            	padding: 0px;
+            	padding: 10px;
                 margin: 0px;
                 box-sizing: border-box;
             }
 
 			@media (min-width: 992px) and (max-width: 1200px){
 
+ 			  #p1{
+              	width: 26%;
+              }
+
+              #p2{
+              	width: 26%;
+              }
+
+              #p3{
+              	width: 26%;
+              }
 			}
 
 			@media (min-width: 768px) and (max-width: 991px){
+              
+              #p1{
+              	width: 42%;
+              }
+
+              #p2{
+              	width: 42%;
+              }
+
+              #p3{
+              	width: 90%;
+              }
 
 			}
 
 			@media (max-width: 767px){
 
+ 			  #p1{
+              	width: 90%;
+              }
+
+              #p2{
+              	width: 90%;
+              }
+
+              #p3{
+              	width: 90%;
+              }
+
 			}
 
 			p{
-				width:33%;
+				width:26%;
 				float:left;
-				text-align: center;
+				text-align: right;
 			}
 
 		</style>
@@ -35,9 +70,9 @@
     <body>
     	<h1>Module 2 Assignment</h1>
     	<div position="fixed">
-    	    <p >Section 1</p>
-    	    <p >Section 2</p>
-    	    <p >Section 3</p>
+    	    <p id="p1">Section 1</p>
+    	    <p id="p2">Section 2</p>
+    	    <p id="p3">Section 3</p>
     	</div>
     	
     </body>
