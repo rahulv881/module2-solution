@@ -6,34 +6,52 @@
 		<style >
 			
             *{
-            	padding: 10px;
+            	padding: 0px;
                 margin: 0px;
                 box-sizing: border-box;
             }
 
+            body
+            {
+            	padding: 0px;
+            	margin: 0px;
+            	box-sizing: border-box;
+            }
+            #p1{
+            	background-color: #FF0000;
+            }
+
+            #p2{
+              	background-color: #00FFFF;
+            }
+
+            #p3{
+            	background-color: #0000FF;
+            }
 			@media (min-width: 992px) and (max-width: 1200px){
 
  			  #p1{
-              	width: 26%;
+              	width: 30%;
               }
 
               #p2{
-              	width: 26%;
+              	width: 30%;
               }
 
               #p3{
-              	width: 26%;
+              	width: 30%;
               }
 			}
 
 			@media (min-width: 768px) and (max-width: 991px){
               
               #p1{
-              	width: 42%;
+              	width: 45%;
               }
 
               #p2{
-              	width: 42%;
+              	width: 45%;
+              	padding-left: 5%;
               }
 
               #p3{
@@ -45,23 +63,31 @@
 			@media (max-width: 767px){
 
  			  #p1{
-              	width: 90%;
+              	width: 90%;	
               }
 
               #p2{
               	width: 90%;
+              	padding-left: 5%;
               }
 
               #p3{
               	width: 90%;
+              	padding-left: 5%;
               }
 
 			}
 
 			p{
-				width:26%;
+				width:30%;
 				float:left;
 				text-align: right;
+				height: 150px;
+			}
+
+			div{
+				width: 100%;
+				background-color: #FFFFFF;
 			}
 
 		</style>
@@ -69,7 +95,7 @@
 	</head>
     <body>
     	<h1>Module 2 Assignment</h1>
-    	<div position="fixed">
+    	<div >
     	    <p id="p1">Section 1</p>
     	    <p id="p2">Section 2</p>
     	    <p id="p3">Section 3</p>
