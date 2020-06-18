@@ -17,8 +17,50 @@
             	margin: 0px;
             	box-sizing: border-box;
             }
+
+            p{
+            	margin-top: 2%;
+            	margin-left:2%;
+            	width: 30.66%;
+            	height:150px;
+            	border-width: 2px;
+            	border-style: dotted;
+            	border-color: brown;
+            	float:left;
+            	text-align: right;
+            }
+
+            div{
+            	float:left;
+				width: 100%;
+				padding: 2px;
+			}
+
+			h1{
+				text-align: center;
+			}
+
+			h2{
+				text-align: right;
+			}
+
+			span{
+				padding-left:10px;
+				padding-right: 10px;
+            	font-size: 32px;
+            	font-family: "Times New Roman", Times, sherif;
+            	font-variant-caps: all-petite-caps;
+                
+            	border-width: 2px;
+            	border-bottom-style: dotted;
+            	border-bottom-color: brown;
+            	border-left-style: dotted;
+            	border-left-color: brown;
+			}
+
+
             #p1{
-            	background-color: #FF0000;
+            	background-color: #FFFF00;
             }
 
             #p2{
@@ -26,36 +68,37 @@
             }
 
             #p3{
-            	background-color: #0000FF;
+            	background-color: #FF00FF;
             }
+
+
 			@media (min-width: 992px) and (max-width: 1200px){
 
  			  #p1{
-              	width: 30%;
+              	width: 30.66%;
               }
 
               #p2{
-              	width: 30%;
+              	width: 30.66%;
               }
 
               #p3{
-              	width: 30%;
+              	width: 30.66%;
               }
 			}
 
 			@media (min-width: 768px) and (max-width: 991px){
               
               #p1{
-              	width: 45%;
+              	width: 47%;
               }
 
               #p2{
-              	width: 45%;
-              	padding-left: 5%;
+              	width: 47%;
               }
 
               #p3{
-              	width: 90%;
+              	width: 96%;
               }
 
 			}
@@ -63,42 +106,34 @@
 			@media (max-width: 767px){
 
  			  #p1{
-              	width: 90%;	
+              	width: 96%;	
               }
 
               #p2{
-              	width: 90%;
-              	padding-left: 5%;
+              	width: 96%;
               }
 
               #p3{
-              	width: 90%;
-              	padding-left: 5%;
+              	width: 96%;
               }
 
 			}
-
-			p{
-				width:30%;
-				float:left;
-				text-align: right;
-				height: 150px;
-			}
-
-			div{
-				width: 100%;
-				background-color: #FFFFFF;
-			}
-
+			
 		</style>
 	</head>
 	</head>
     <body>
-    	<h1>Module 2 Assignment</h1>
+    	<h1>व्यंजन</h1>
     	<div >
-    	    <p id="p1">Section 1</p>
-    	    <p id="p2">Section 2</p>
-    	    <p id="p3">Section 3</p>
+    	    <p id="p1">
+    	    	<span>रोटी</span>
+    	    </p>
+    	    <p id="p2">
+    	        <span>सब्ज़ी</span>
+    	    </p>
+    	    <p id="p3">
+    	        <span>चावल</span>
+    	    </p>
     	</div>
     	
     </body>
